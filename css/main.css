@@ -8,10 +8,16 @@ body {
   font-size: 16px;
   font-weight: 300;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-color: #eee
+}
+
+h1{
+	color: blue;
 }
 
 section {
   margin: 25px 10px;
+  width: 100%;
 }
 
 h1.title {
@@ -25,3 +31,18 @@ h1.title {
 input[type="radio"] {
   margin-right: 5px;
 }
+
+.contentWrapper{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+ul li{
+	color: green;
+}
+
+ol li{
+	color: purple;
+}
+
+
